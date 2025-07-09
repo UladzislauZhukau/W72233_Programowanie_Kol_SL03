@@ -1,0 +1,9 @@
+git init -- służy do inicjalizacji nowego repozytorium Git w danym katalogu.jednorazowe polecenie, którego używamy podczas wstępnej konfiguracji nowego repozytorium.
+git fetch -- polecenie w Git, które pobiera najnowsze zmiany z repozytorium zdalnego, ale nie łączy ich automatycznie z Twoją lokalną gałęzią roboczą.
+git add -- służy do dodawania zmian w plikach do obszaru przejściowego (staging area), przygotowując je do przyszłego zatwierdzenia (commitowania). 
+
+polecenia do zamieszczenia zmian w repo zdalnym:
+
+git add (nazwy plików które będziemy dodawać do commitu / '.' jeżeli chcemy dodać wszystkie pliky)
+git commit -m "(wiadomość commitu)"
+git push
